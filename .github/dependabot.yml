@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/' 
+    schedule:
+      interval: 'weekly'
+    labels:
+      - 'dependabot'
+      - 'dependencies'
+    open-pull-requests-limit: 7 
+    allow:
+      - dependency-name: '@types/*'
+        dependency-type: 'production'
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
+    pull-request-branch-name:
+      separator: '-'
+    commit-message:
+      prefix: 'build'
+      include: 'scope'
