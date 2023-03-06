@@ -9,8 +9,8 @@ updates:
       - 'dependencies'
     open-pull-requests-limit: 2 
     allow:
-      - dependency-name: '@babel/*'
-        dependency-type: 'direct'
+      - dependency-name: '@types/*'
+        dependency-type: 'production'
     ignore:
       - dependency-name: '*'
         update-types: ['version-update:semver-major']
