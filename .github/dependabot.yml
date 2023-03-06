@@ -7,10 +7,10 @@ updates:
     labels:
       - 'dependabot'
       - 'dependencies'
-    open-pull-requests-limit: 7 
+    open-pull-requests-limit: 2 
     allow:
-      - dependency-name: '@types/*'
-        dependency-type: 'production'
+      - dependency-name: '@babel/*'
+        dependency-type: 'direct'
     ignore:
       - dependency-name: '*'
         update-types: ['version-update:semver-major']
