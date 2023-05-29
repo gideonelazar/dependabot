@@ -45,7 +45,7 @@
     "npm-run-all": "^4.1.5",
     "@types/lodash": "~4.14.172",
     "@types/node": "~16.4.5",
-    "@types/react": "~17.0.15",
+    "@types/react": "~17.0.60",
     "postcss": "^8.3.11",
     "prettier": "2.3.2",
     "puppeteer": "^11.0.0",
